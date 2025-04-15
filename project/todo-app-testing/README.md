@@ -43,7 +43,7 @@ All test artifacts are located in the /docs/ folder:
 
 🧪 test_cases_high.md / test_cases_medium.md / test_cases_low.md — detailed test scenarios
 
-🐞 bug_reports.md — reported issues with reproduction steps
+🐞 bug_reports — reported issues with reproduction steps
 
 
 ## 👤 Author
