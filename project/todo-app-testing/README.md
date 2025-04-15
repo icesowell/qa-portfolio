@@ -29,7 +29,7 @@ ToDoMVC is a typical "to-do list" app that allows users to create, manage, and f
 |---------------------------|----------------------------------|
 | IDE & Test Execution      | Visual Studio Code               |
 | Automation Framework      | Selenium + Pytest + Allure       |
-| Debugging & Inspection    | Chrome DevTools, Charles Proxy   |
+| Debugging & Inspection    | Chrome DevTools   |
 | Test Design & Visualization | Miro                           |
 | Version Control           | Git + GitHub                     |
 
