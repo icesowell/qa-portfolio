@@ -34,7 +34,7 @@ ToDoMVC is a typical "to-do list" app that allows users to create, manage, and f
 | Version Control           | Git + GitHub                     |
 
 ---
-📁 Documentation
+## 📁 Documentation
 All test artifacts are located in the /docs/ folder:
 
 ✅ test_plan.md — full test strategy with priorities and risks
@@ -44,3 +44,12 @@ All test artifacts are located in the /docs/ folder:
 🧪 test_cases_high.md / test_cases_medium.md / test_cases_low.md — detailed test scenarios
 
 🐞 bug_reports.md — reported issues with reproduction steps
+
+
+## 👤 Author
+Telegram: @icesowell
+
+Role: QA Engineer (Manual & Automation)
+
+## 🧠 Notes
+This project was built for portfolio purposes. It aims to simulate the real QA process including documentation, structured testing, automation, and reporting. 
