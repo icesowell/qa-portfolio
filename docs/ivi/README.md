@@ -5,6 +5,8 @@ frame.jpg - Общий вид доски
 
 ## Раздел Чек-листа (Общие проверки)
 
+check-list.md - Чек-лист из Miro в формате .md
+
 check-list1.jpg 
 
 check-list2.jpg 
