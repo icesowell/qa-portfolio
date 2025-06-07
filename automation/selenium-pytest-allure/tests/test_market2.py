@@ -9,6 +9,7 @@ from selenium.webdriver.common.keys import Keys
 import pyperclip
 
 
+
 MAIN_URL = "https://market.yandex.ru/"
 
 def test_article_search(browser):
