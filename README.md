@@ -16,6 +16,7 @@
 - `docs/` – Test plan & checklist (created in Miro)
 - `bug-reports/` – Selected bug reports
 - `automation/` – Selenium Pytest Allure sample tests
+- `automation` - Selenium tasks from stepik [course](https://stepik.org/course/575/syllabus) 
 - `projects/` – Practical test case studies (in progress)
 
 ## 🔍 About Me
