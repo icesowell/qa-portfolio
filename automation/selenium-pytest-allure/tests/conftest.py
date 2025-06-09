@@ -11,7 +11,7 @@ from webdriver_manager.chrome import ChromeDriverManager
 
 
 
-@pytest.fixture(scope="session") #явно указываем что эта функция это фикстура
+@pytest.fixture #явно указываем что эта функция это фикстура
 def browser():
     """
     Main fixture
