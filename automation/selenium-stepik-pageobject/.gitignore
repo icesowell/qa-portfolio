@@ -1,0 +1,36 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+.env/
+.venv/
+env/
+venv/
+
+# VSCode settings
+.vscode/
+
+# Pytest cache
+.pytest_cache/
+
+# Allure results
+allure-results/
+allure-report/
+screenshots/
+
+# Test result logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Python egg and distribution info
+*.egg-info/
+dist/
+build/
+
+# IDE config (optional, если используешь другие редакторы)
+.idea/
