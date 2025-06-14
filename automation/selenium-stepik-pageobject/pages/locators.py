@@ -20,3 +20,7 @@ class ProductPageLocators():
     BOOK_TITILE = (By.XPATH, '//h1')
     PRICE_TITLE = (By.CSS_SELECTOR, '.product_main .price_color')
     BUSKET_PRICE = (By.XPATH, '//*[@id="messages"]/div[3]/div/p[1]/strong')
+
+class BasePageLocators():
+    LOGIN_LINK = (By.CSS_SELECTOR, "#login_link")
+    LOGIN_LINK_INVALID = (By.CSS_SELECTOR, "#login_link_inc")
