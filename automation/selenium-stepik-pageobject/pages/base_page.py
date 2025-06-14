@@ -9,10 +9,9 @@ import math
 
 class BasePage(): #Примечание: методы лучше всего описывать в классе в алфавитном порядке, так проще ориентироваться и находить.
 
-    def __init__(self, browser, url): #, timeout = 10):
+    def __init__(self, browser, url):
         self.browser = browser
         self.url = url
-        #self.browser.implicitly_wait(timeout)
         self.wait = WebDriverWait(browser, 10)
 
     def open(self):

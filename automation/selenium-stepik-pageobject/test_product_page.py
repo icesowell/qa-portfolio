@@ -14,6 +14,7 @@ import time
                                   pytest.param("http://selenium1py.pythonanywhere.com/catalogue/coders-at-work_207/?promo=offer7", marks=pytest.mark.xfail),
                                   "http://selenium1py.pythonanywhere.com/catalogue/coders-at-work_207/?promo=offer8",
                                   "http://selenium1py.pythonanywhere.com/catalogue/coders-at-work_207/?promo=offer9"])
+@pytest.mark.need_review
 def  test_guest_can_add_product_to_basket(browser, link):
 
     product_page = ProductPage(browser, link)
@@ -28,6 +29,7 @@ def  test_guest_can_add_product_to_basket(browser, link):
     product_page.should_be_success_text()
     product_page.should_be_equal_price()
 
+@pytest.mark.xfail(reason='Ожидаемое падение, для примера')
 def test_guest_cant_see_success_message_after_adding_product_to_basket(browser):
 
     LINK = 'http://selenium1py.pythonanywhere.com/ru/catalogue/coders-at-work_207/'
@@ -45,6 +47,7 @@ def test_guest_cant_see_success_message(browser):
 
     product_page.should_not_be_success_message()
 
+@pytest.mark.xfail(reason='Ожидаемое падение, для примера. На самом деле сообщение не должно исчизать после добавления')
 def test_message_disappeared_after_adding_product_to_basket(browser): 
     LINK = 'http://selenium1py.pythonanywhere.com/ru/catalogue/coders-at-work_207/'
     product_page = ProductPage(browser, LINK)
@@ -59,12 +62,14 @@ def test_guest_should_see_login_link_on_product_page(browser):
     product_page.open()
     product_page.should_be_login_link()
 
+@pytest.mark.need_review
 def test_guest_can_go_to_login_page_from_product_page(browser):
     LINK = 'http://selenium1py.pythonanywhere.com/en-gb/catalogue/the-city-and-the-stars_95/'
     product_page = ProductPage(browser, LINK)
     product_page.open()
     product_page.go_to_login_page()
-
+    
+@pytest.mark.need_review
 def test_guest_cant_see_product_in_basket_opened_from_product_page(browser):
     LINK = 'http://selenium1py.pythonanywhere.com/ru/catalogue/coders-at-work_207/'
     product_page = ProductPage(browser, LINK)
@@ -100,7 +105,7 @@ class TestUserAddToBasketFromProductPage():
         product_page.should_not_be_success_message()
 
 
-
+    @pytest.mark.need_review
     def  test_user_can_add_product_to_basket(self, browser):
 
         LINK = 'http://selenium1py.pythonanywhere.com/ru/catalogue/coders-at-work_207/'
