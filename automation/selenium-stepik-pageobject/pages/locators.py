@@ -16,11 +16,16 @@ class LoginPageLocators():
 
 class ProductPageLocators():
     ADD_TO_BASKET_BUTTON = (By.CSS_SELECTOR, ".btn-add-to-basket")
-    SUCCESS_TEXT_BUSKET = (By.XPATH, '//*[@id="messages"]/div[1]/div/strong')
+    SUCCESS_TEXT_BASKET = (By.XPATH, '//*[@id="messages"]/div[1]/div/strong')
     BOOK_TITILE = (By.XPATH, '//h1')
     PRICE_TITLE = (By.CSS_SELECTOR, '.product_main .price_color')
-    BUSKET_PRICE = (By.XPATH, '//*[@id="messages"]/div[3]/div/p[1]/strong')
+    BASKET_PRICE = (By.XPATH, '//*[@id="messages"]/div[3]/div/p[1]/strong')
 
 class BasePageLocators():
     LOGIN_LINK = (By.CSS_SELECTOR, "#login_link")
     LOGIN_LINK_INVALID = (By.CSS_SELECTOR, "#login_link_inc")
+    BASKET_LINK = (By.CSS_SELECTOR, '.btn-group > a')
+
+class BasketPageLocators():
+    EMPTY_BASKET_NOTICE = (By.CSS_SELECTOR, "#content_inner p")
+    BASKET_COUNTER_ITEMS = (By.CSS_SELECTOR, '.basket-items')

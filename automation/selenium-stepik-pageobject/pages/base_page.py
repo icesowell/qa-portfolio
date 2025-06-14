@@ -66,3 +66,7 @@ class BasePage(): #Примечание: методы лучше всего оп
     def should_be_login_link(self):
         assert self.is_element_present(*BasePageLocators.LOGIN_LINK), "Login link is not presented"
     
+    def go_to_busket(self):
+        link = self.browser.find_element(*BasePageLocators.BASKET_LINK)
+        link.click()
+    
