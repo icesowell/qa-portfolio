@@ -43,10 +43,6 @@ Contains automated testing frameworks and configurations:
 
 ---
 
-
-
----
-
 ## 🔍 About Me
 
 - 🎓 Degree in Applied Informatics
