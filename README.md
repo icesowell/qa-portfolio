@@ -10,15 +10,16 @@
 - Tools: DevTools, Charles, Miro, Obsidian
 - Issue Tracking: Yandex Tracker
 - Languages: Python (basic), Bash (basic), Git (basic)
+---
 
 ## 📁 Repository Structure
 
-- `docs/` – Test plan & checklist (created in Miro)
+- `docs/` – Documentation and test artifacts.
 - `bug-reports/` – Directory for storing bug reports (e.g., ivi_bug-report-001.md).
   
 ---
 
-- `automation/` – Selenium Pytest Allure sample tests:
+`automation/` – Selenium Pytest Allure sample tests:
 - Contains automated testing frameworks and configurations:
 - `selenium-pytest-allure` : Selenium + Pytest tests with Allure reporting integration.
 - `selenium-stepik-marketplace` : Tests for Stepik Marketplace using Selenium. [Course](https://stepik.org/course/575/syllabus) 
@@ -30,6 +31,7 @@
 
 - `projects/` – Practical test case studies (in progress)
 
+---
 
 ## 🔍 About Me
 
