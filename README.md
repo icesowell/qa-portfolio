@@ -34,7 +34,7 @@
 ---
 
 `automation/` – Selenium Pytest Allure sample tests:
-- Contains automated testing frameworks and configurations:
+Contains automated testing frameworks and configurations:
 - `selenium-pytest-allure` : Selenium + Pytest tests with Allure reporting integration.
 - `selenium-stepik-marketplace` : Tests for Stepik Marketplace using Selenium. [Course](https://stepik.org/course/575/syllabus) 
 - `selenium-stepik-pageobject` : Page Object Model implementation for Stepik tests.
