@@ -18,19 +18,20 @@
 - `bug-reports/` – Directory for storing bug reports (e.g., ivi_bug-report-001.md).
 - 
 ---
-- `projects/` – Project/todo-app-testing
+`projects/` – Project/todo-app-testing
 Main directory for the Todo App testing project:
 
-`docs` : Documentation and test artifacts:
-`bug_reports` : Specific bug reports for the Todo App (e.g., BUG-TODO-001.md, BUG-TOO-002.md).
-`checklist.md` : Test execution checklist.
-`functional_prioritization.md` : Prioritization of functional tests.
-`test-cases-*.md` : Test cases categorized by priority (high, medium, low).
-`test-plan.md` : Overall test plan.
-`traceability_matrix.md` : Requirements-to-test traceability matrix.
-`autotests` : Automated test scripts for the Todo App.
-`screenshots` : Visual artifacts from testing (e.g., failed test screenshots).
-`README.md` : Local documentation for the todo-app-testing project.
+- `docs` : Documentation and test artifacts:
+- `bug_reports` : Specific bug reports for the Todo App (e.g., BUG-TODO-001.md, BUG-TOO-002.md).
+- `checklist.md` : Test execution checklist.
+- `functional_prioritization.md` : Prioritization of functional tests.
+- `test-cases-*.md` : Test cases categorized by priority (high, medium, low).
+- `test-plan.md` : Overall test plan.
+- `traceability_matrix.md` : Requirements-to-test traceability matrix.
+- `autotests` : Automated test scripts for the Todo App.
+- `screenshots` : Visual artifacts from testing (e.g., failed test screenshots).
+- `README.md` : Local documentation for the todo-app-testing project.
+
 ---
 
 `automation/` – Selenium Pytest Allure sample tests:
