@@ -14,18 +14,22 @@
 ## 📁 Repository Structure
 
 - `docs/` – Test plan & checklist (created in Miro)
-- `bug-reports/` – Selected bug reports
-- `automation/` – Selenium Pytest Allure sample tests
-Contains automated testing frameworks and configurations:
+- `bug-reports/` – Directory for storing bug reports (e.g., ivi_bug-report-001.md).
+  
+---
 
-`selenium-pytest-allure` : Selenium + Pytest tests with Allure reporting integration.
-`selenium-stepik-marketplace` : Tests for Stepik Marketplace using Selenium.
-`selenium-stepik-pageobject` : Page Object Model implementation for Stepik tests.
-`selenium-stepik` : Base Selenium tests for Stepik platform.
-`bug-reports` : Directory for storing bug reports (e.g., ivi_bug-report-001.md).
+- `automation/` – Selenium Pytest Allure sample tests:
+- Contains automated testing frameworks and configurations:
+- `selenium-pytest-allure` : Selenium + Pytest tests with Allure reporting integration.
+- `selenium-stepik-marketplace` : Tests for Stepik Marketplace using Selenium. [Course](https://stepik.org/course/575/syllabus) 
+- `selenium-stepik-pageobject` : Page Object Model implementation for Stepik tests.
+- `selenium-stepik` : Base Selenium tests for Stepik platform.
+- `bug-reports` : Directory for storing bug reports (e.g., ivi_bug-report-001.md).
 
-- `automation` - Selenium tasks from stepik [course](https://stepik.org/course/575/syllabus) 
+---
+
 - `projects/` – Practical test case studies (in progress)
+
 
 ## 🔍 About Me
 
