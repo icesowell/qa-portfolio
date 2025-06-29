@@ -16,7 +16,7 @@
 
 - `docs/` – Documentation and test artifacts.
 - `bug-reports/` – Directory for storing bug reports (e.g., ivi_bug-report-001.md).
-- 
+ 
 ---
 `projects/` – Project/todo-app-testing
 Main directory for the Todo App testing project:
